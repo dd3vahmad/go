@@ -68,12 +68,12 @@ func test(e expense) {
 	fmt.Printf("%s costs %.2f\n", i, c)
 }
 
-func main() {
-	test(email{
-		body: "Test email snet to a random non-existing user.",
-		toAddress: "ahmadkx@gmail.com",
-	})
-	printNumericalValue(1)
-	printNumericalValue("1")
-	printNumericalValue(struct{}{})
-}
+// func main() {
+// 	test(email{
+// 		body: "Test email snet to a random non-existing user.",
+// 		toAddress: "ahmadkx@gmail.com",
+// 	})
+// 	printNumericalValue(1)
+// 	printNumericalValue("1")
+// 	printNumericalValue(struct{}{})
+// }
